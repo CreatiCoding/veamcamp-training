@@ -1,0 +1,22 @@
+{
+  "name": "veamcamp-training",
+  "version": "1.0.0",
+  "description": "빔캠프 따라서 UI 코딩 연습",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CreatiCoding/veamcamp-training.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/CreatiCoding/veamcamp-training/issues"
+  },
+  "homepage": "https://github.com/CreatiCoding/veamcamp-training#readme",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "live-server": "^1.2.1"
+  }
+}

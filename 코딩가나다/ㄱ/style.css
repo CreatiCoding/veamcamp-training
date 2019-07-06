@@ -1,0 +1,45 @@
+body {
+  background-color: #dddddd;
+}
+.box {
+  background-color: #fff;
+  width: 960px;
+
+  margin: 50px auto;
+  /* 단축속성 상하 좌우 */
+
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* auto값을 주면 나머지 공간을 모두 자동 완성 */
+  text-align: center;
+  /* 박스 자체는 block, 내부는 inline 이기 때문에 내부 전체가 가운데 정렬 */
+  /* 아버지 부모 요소가 자식에게도 전이되는 상속 속성 */
+
+  border-radius: 20px;
+  border-right: 5px solid #ccc;
+  border-bottom: 5px solid #999;
+  /* 그림자 주는 스킬 */
+}
+
+/* h1안의 텍스트(h1내부의 인라인)이 text-align 이 적용됨 */
+/* h1 부모의 text-align가 적용되어 인라인 요소만 text-align 적용됨 */
+.box h1 {
+  color: orangered;
+  border-bottom: 10px solid orangered;
+  background-color: aquamarine;
+  /* 꽉 차 있는 h1, 즉, h1이 가운데 정렬이 된게 아님*/
+  width: 250px;
+  /* 블록요소 width의 크기가 적용됨 */
+  margin: 40px auto;
+  /* 블록요소 가운데 정렬은 margin auto로 적용 가능 */
+
+  font-size: 4rem;
+  /* width 는 고정값인데 font-size가 커져서 삐져나옴 */
+  /* 유지보수가 편리한 코드를 작성해야함! */
+  /* 가운데 정렬 시리즈 */
+  /* https://www.youtube.com/playlist?list=PLMv8nY90ATZX3TOLjJaAZsyA8vcNsdX4j */
+}
+
+.bix p {
+  padding: 3rem;
+}
