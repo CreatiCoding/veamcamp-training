@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/CreatiCoding/veamcamp-training#readme",
   "dependencies": {
-    "http-server": "^0.11.1",
+    "http-server": "^0.11.2",
     "live-server": "^1.2.1"
   }
 }
